@@ -1,7 +1,7 @@
 
 body{
     background-color: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 9%, rgba(255,255,255,1) 23%, rgba(0,0,0,1) 35%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 66%, rgba(255,255,255,1) 81%, rgba(0,0,0,1) 92%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(0,0,0,1) );
 }
 
 #container{
@@ -18,9 +18,22 @@ body{
     height: 400px;
     width: auto;
     border-radius: 30px;
+    transition: all 1s;
 }
 h1{
     color: gold;
     font-style: italic;
     text-shadow:  2px 2px 2px  black;
+}
+#titolo .dimensioni:hover{
+    transform: scale(1.1, 1.1);
+    opacity: .9;
+}
+
+#btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-style: none;
 }

@@ -5,7 +5,24 @@ var app = new Vue ({
     el: "#titolo",
     data: {
         title : "Alex Del Piero",
-        immagine : "https://static.fanpage.it/wp-content/uploads/sites/27/2020/11/del-piero-fine-rapporto-juventus-agnelli-1604702234462-1200x1200.jpg",
-        regolaImg : "dimensioni"
+        immagine : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kFNeQc1eO3aUgSqAM4KvbQW3P43tHmCwrA&usqp=CAU",
+        regolaImg : "dimensioni",
+        buttonText : "Clicca per far esultare Del Piero"
+    },
+    methods: {
+        changeImage: function(){
+            if ( this.immagine === "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kFNeQc1eO3aUgSqAM4KvbQW3P43tHmCwrA&usqp=CAU" ){
+                this.immagine = "https://i.makeagif.com/media/10-17-2015/b1CKzq.gif";
+            } else {
+                this.immagine = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kFNeQc1eO3aUgSqAM4KvbQW3P43tHmCwrA&usqp=CAU";
+            }
+
+            if ( this.buttonText === "Clicca per far esultare Del Piero"){
+                this.buttonText = "Gooooooaaaaaaaaaaalll"
+            } else {
+                this.buttonText = "Clicca per far esultare Del Piero"
+            }
+        } 
     }
+
 })

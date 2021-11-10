@@ -12,7 +12,14 @@
         <div id="titolo">
             <h1> {{ title }} </h1>
             <img :class="regolaImg" :src="immagine" alt="">
+            <div>
+                <button @click="changeImage" id="btn">
+                    {{ buttonText }}
+                </button>
+            </div>
+           
         </div>
+      
     </div>
 
 
