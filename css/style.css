@@ -17,4 +17,10 @@ body{
 #titolo .dimensioni{
     height: 400px;
     width: auto;
+    border-radius: 30px;
+}
+h1{
+    color: gold;
+    font-style: italic;
+    text-shadow:  2px 2px 2px  black;
 }
