@@ -1,0 +1,20 @@
+
+body{
+    background-color: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 9%, rgba(255,255,255,1) 23%, rgba(0,0,0,1) 35%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 66%, rgba(255,255,255,1) 81%, rgba(0,0,0,1) 92%, rgba(255,255,255,1) 100%);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+        
+}
+
+#titolo .dimensioni{
+    height: 400px;
+    width: auto;
+}
